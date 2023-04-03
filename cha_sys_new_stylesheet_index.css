@@ -1,0 +1,37 @@
+body {
+    background-color: #fbefda;
+}
+
+.body {
+    background-color: #894e32;
+    border: 1px solid black; 
+    padding: 6ch;
+    color: white;
+    border-radius: 10px;
+}
+
+.form-container {
+    max-width: 1400px;
+    max-height: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #894e32;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
