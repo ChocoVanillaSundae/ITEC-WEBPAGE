@@ -6,11 +6,28 @@ body {
 
 .text-container{
     max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 0;
+    margin-left: 20px;
+    padding: 30px;
     background-color: #894e32;
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+}
+
+.header-container {
+    max-width: 600px;
+    margin-left: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#slogan {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #894e32;
 }
 
 .text-header {
@@ -43,13 +60,15 @@ body {
     box-shadow: 0 0 5px rgb(255, 255, 255);
 }
 
-.form-button {
+#login {
     display: block;
-    width: 100%;
+    width: 80px;
     padding: 10px 20px;
-    background-color: #693b24;
-    columns: #fff;
-    color: #ffffff;
+    color: white;
+    background-color: #894e32;    ;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -57,7 +76,24 @@ body {
     font-size: 18px;
 }
 
-.form-button:hover {
+.button {
+    display: block;
+    width: 100px;
+    padding: 10px 20px;
+    margin-left: 200px;
+    color: white;
+    background-color: #894e32;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 18px;
+}
+
+.button:hover {
     background-color: #974f33;
 }
 
