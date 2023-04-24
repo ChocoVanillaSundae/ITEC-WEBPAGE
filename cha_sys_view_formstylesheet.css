@@ -2,6 +2,8 @@ body {
     background-color: #fbefda;
     margin: 0%;
     margin-bottom: 10px;
+    background-image: url(./img/champagnemainbg.jpg);
+    background-size: cover;
 }
 
 .text-container{
@@ -27,7 +29,7 @@ body {
     margin-bottom: 10px;
     font-size: 80px;
     font-weight: bold;
-    color: #894e32;
+    color: #975233;
 }
 
 .text-header {
@@ -65,7 +67,7 @@ body {
     width: 80px;
     padding: 10px 20px;
     color: white;
-    background-color: #894e32;    ;
+    background-color: #894e32;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -82,7 +84,7 @@ body {
     padding: 10px 20px;
     margin-left: 200px;
     color: white;
-    background-color: #894e32;
+    background-color: #975233;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
@@ -94,7 +96,7 @@ body {
 }
 
 .button:hover {
-    background-color: #974f33;
+    background-color: #bf6541;
 }
 
 .homepage {
@@ -104,13 +106,13 @@ body {
 }
 
 .navbar-color{
-    background-color: #693b24;
+    background-color: #975233;
     margin: 0px;
 
 }
 .navbar {
     height: 120px;
-    background-color: #693b24;
+    background-color: #975233;
     background-clip: border-box;
     width: 90%;
     margin: auto;
