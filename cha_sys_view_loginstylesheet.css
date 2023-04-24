@@ -1,7 +1,8 @@
 body{
     background-color: #fbefda;
     padding: 100px;
-
+    background-image: url(./img/champagnemainbg.jpg);
+    background-size: cover;
 }
 .form-container{
     max-width: 500px;
