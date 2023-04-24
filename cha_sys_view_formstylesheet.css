@@ -3,22 +3,28 @@ body {
     margin: 0%;
 }
 
-.form-container{
-    max-width: 500px;
+.text-container{
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
     background-color: #894e32;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
 }
 
-.form-header {
+.text-header {
     display: block;
     margin-top: 0;
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: bold;
     color: rgb(255, 255, 255);
+}
+
+.text-body {
+    font-size: 20px;
+    color: white;
+    text-align: justify;
 }
 
 .form-input {
